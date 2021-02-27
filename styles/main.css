@@ -1,0 +1,261 @@
+
+
+.wrapper {
+	padding: 0 10px 0 10px;
+	font-family: "Graphik";
+	
+}
+
+.header-wrap {
+	width: 100%;
+	border-bottom: 1px solid #E0E0E0;
+	margin-bottom: 8px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 14px 0 15px 0;
+}
+
+.logo-name {
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.header__localization-and-button{
+	display: flex;
+}
+
+.header__localization-block select {
+	padding: 10px;
+	margin-right: 14px;
+	width: 85px;
+	height: 38px;
+	background: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	box-sizing: border-box;
+	box-shadow: inset 0px 0px 10px rgba(196, 196, 196, 0.15);
+	border-radius: 3px;
+	font-weight: bold;
+
+}
+
+.header__button{
+	width: 185px;
+	height: 38px;
+	color: #FFFFFF;
+	background: #4385DC;
+	border: 1px solid #4E79B3;
+	border-radius: 3px;
+}
+
+.header__button__text {
+	font-size: 14px;
+}
+
+.header__button__icon{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.content {
+	margin-bottom: 60px;
+}
+
+.content__header {
+	padding-top: 29px;
+}
+
+.content__header__filter-block {
+	margin-bottom: 38px;
+	display: flex;
+	gap: 16px;
+	justify-content: space-between;
+}
+
+.content__header__serch-block{
+	height: 38px;
+	width: 550px;
+	background: #FFFFFF;
+	border: 1px solid #DBDBDB;
+	box-sizing: border-box;
+	border-radius: 3px;
+	flex-wrap: nowrap;
+	display: flex;
+	align-items: center;
+}
+
+.content__header__serch-icon {
+	padding: 0 12px;
+}
+
+.content__header__serch-input {
+	height: 34px;
+	width: calc(100% - 50px);
+	border: none;
+	background: #FFFFFF;
+
+}
+
+.content__header__localization {
+	width: 205.62px;
+	height: 38px;
+	border: 1px solid #DFDFDF;
+	box-sizing: border-box;
+	box-shadow: inset 0px 0px 10px rgba(196, 196, 196, 0.15);
+	border-radius: 3px;
+}
+
+.content__haeder__access-mode {
+	width: 205.62px;
+	height: 38px;
+	border: 1px solid #DFDFDF;
+	box-shadow: inset 0px 0px 10px rgba(196, 196, 196, 0.15);
+	border-radius: 3px;
+
+}
+
+.content__haeder__button {
+	width: 90px;
+	height: 38px;
+	background: #4385DC;
+	border: 1px solid #4E79B3;
+	border-radius: 3px;
+	color: #ffffff;
+
+}
+
+.cotent__header__links-balocks{
+	display: flex;
+}
+
+.cotent__header__link-block {
+	text-decoration: none;
+	padding-right: 9px;
+	color: #333333;
+	font-weight: bold;
+}
+
+.cotent__header__link-block:active {
+	border-bottom: 3px solid #4385DC;
+	color:#333333;
+}
+
+.cotent__header__link-text {
+	padding-bottom: 9px;
+	border: none;
+}
+
+.content__body {
+	border-top: 1px solid #E0E0E0;
+	padding-top: 42px;	
+}
+
+.card-prodackt {
+	box-shadow: 0px 0px 5px rgba(125, 125, 125, 0.1);
+	border-radius: 3px;
+	padding: 17px 33px 17px 25px;
+	width: 100%;
+	display: flex;
+	gap: 32px;
+	margin-bottom: 31px;
+	position: relative;
+	
+}
+
+.card-product__product-img {
+	width: 403px;
+	height: 223px;
+}
+
+.card-product__discrition-product {
+}
+
+.card-product__discrition-product__name-blcok {
+	display: flex;
+	gap: 13px;
+	align-items: center;
+	margin-bottom: 13px;
+}
+
+.card-product__discrition-product__title-name-block {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.card-product__discrition-product__name-product {
+	color:#005DE8;
+	font-size: 14px;
+}
+
+.card-product__discrition-product__hashtags {
+	font-size: 12px;
+	color: #193961;
+	margin-bottom: 15px;
+}
+
+.card-product__discrition-product__part-artical {
+	margin-bottom: 30px;
+}
+
+.card-product__discrition-product__access-block {
+	margin-bottom: 10px;
+}
+
+.card-product__discrition-product__title-access-block {
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+
+.card-product__discrition-product__title-items-access-block {
+	font-weight: bold;
+	width: 53px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.card-product__discrition-product__items-access-block:nth-child(2n) {
+	margin-bottom: 5px;
+}
+
+.card-product__discrition-product__localization-block {
+
+}
+
+.card-product__discrition-product__title-localization-block {
+	font-size: 12px;
+	color: #828282;
+	margin-bottom: 13px;
+}
+
+.card-product__discrition-product__content-localization-block {
+	color: #333333;
+}
+
+.online-block {
+	color: #27AE60;
+	position: absolute;
+	right: 76px;
+	top: 20px;
+	font-size: 14px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	height: 67px;
+	align-items: center;
+	font-size: 12px;
+}
+
+.footer__links {
+
+}
+
+.footer__link {
+	color: #4385DC;
+	margin-right: 21px;
+	text-decoration: none;
+}
